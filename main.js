@@ -12,7 +12,7 @@ let input = "Abdumuhaymin";
 function y(a, b) {
   let count = 0;
   for (let i = 0; i < a.length; i++) {
-    if (wtf[i] == b) {
+    if (a[i] == b) {
       count += 1;
     }
   }
